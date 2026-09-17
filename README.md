@@ -32,3 +32,12 @@ This project spans all three Bitget AI Hackathon S2 tracks:
 ```bash
 npm install
 npm run dev
+Open http://localhost:3000 to see Alpha Court running locally.
+🏗️ How It Works
+Enter a ticker (e.g. SOLUSDT, NVDA) and your investment thesis
+Alpha Court fetches live Bitget market data for that ticker
+The Bull agent argues for the trade, the Bear agent argues against it — both using the real market data
+The Judge weighs both arguments and returns a verdict with a confidence score and a verification hash
+A human reviews everything and can choose to Execute Trade
+👤 Author
+Built by Ayan
